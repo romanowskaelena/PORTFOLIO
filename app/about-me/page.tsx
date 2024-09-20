@@ -5,6 +5,7 @@ import ServiceSlider from '../components/ServiceSlider'
 const Page = () => {
   return (
     <div className='bg-[#2F3A7D] h-screen overflow-hidden flex items-center justify-center'>
+      <div className="absolute inset-0 bg-black opacity-45"></div> 
         <div className='mt-[160px] flex flex-col justify-center item-center w-3/4 max-w-[1400px] fixed top-100 left-1/2 transform -translate-x-1/2'>
        
             <h1 className='text-[50px] text-white font-semibold '>

@@ -5,6 +5,7 @@ import ProjectSlider from '../components/ProjectSlider'
 const Page = () => {
   return (
     <div className='flex items-center justify-center gap-5 flex-col md:flex-row h-screen bg-[#2F3A7D]'>
+      <div className="absolute inset-0 bg-black opacity-45"></div> 
       <div className='mt-[160px] flex flex-row gap-3 justify-between item-center w-3/4 max-w-[1400px] fixed top-100 left-1/2 transform -translate-x-1/2'>
      
         <div className='flex flex-col gap-3 justify-center items-start w-[60%] lg:w-[40%]'>
